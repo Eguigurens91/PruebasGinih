@@ -7,6 +7,5 @@ module.exports = defineConfig({
       allureWriter(on, config);
       return config;
     },
-    baseUrl: "https://reqres.in",
   },
 });
