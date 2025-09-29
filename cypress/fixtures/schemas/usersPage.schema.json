@@ -1,0 +1,29 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "Users Page response",
+    "type": "object",
+    "required": ["Page", "Per_Page", "Total", "Total_Pages", "Data"],
+    "properties": {
+        "Page": { "type": "integer" },
+        "Per_Page": { "type": "integer" },
+        "Total": { "type": "integer" },
+        "Total_Pages": { "type": "integer" },
+        "Data": {
+            "type": "array",
+            "items": {
+                "type": "object",
+                "required": ["Id", "Email", "First_Name", "Last_Name", "Avatar"],
+                "properties": {
+                    "Id": { "type": "integer" },
+                    "Email": { "type": "string", "format": "email" },
+                    "First_Name": { "type": "string" },
+                    "Last_Name": { "type": "string" },
+                    "Avatar": { "type": "string", "format": "uri" }
+                },
+                "additionalProperties": true
+            }
+        },
+        "Support":{"type":["object","null"]}
+    },
+    "additionalProperties": true
+}
