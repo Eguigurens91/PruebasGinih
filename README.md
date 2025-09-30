@@ -7,7 +7,7 @@ QA Engineer - Ejercicios prácticos
 
 # Instalacion
 - clona el repositorio
-- cambia de carpeta a cd QAENGINEER_TESST
+- cambia de carpeta a cd QAENGINEER_TEST
 - npm install
 
 ## Instruccion para su ejecucion 
