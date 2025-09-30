@@ -1,0 +1,26 @@
+[
+  {
+    "firstName": "Karla",
+    "lastName": "Vallecillo",
+    "email": "eguigurensmariell@gmail.com",
+    "age": 30,
+    "salary": 1000,
+    "department": "IT"
+  },
+  {
+    "firstName": "Mariel",
+    "lastName": "Eguiguren",
+    "email": "eguigurens@gmail.com",
+    "age": 30,
+    "salary": 1000,
+    "department": "QA"
+  },
+  {
+    "firstName": "Carlos",
+    "lastName": "Rivera",
+    "email": "rivera@gmail.com",
+    "age": 30,
+    "salary": 1000,
+    "department": "IT"
+  }
+]
